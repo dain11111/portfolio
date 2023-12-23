@@ -32,17 +32,27 @@
 					cursor: pointer;
 				}
 				#cuponOrder {
-					background-color: rgb(236, 236, 236);
+					background-color: rgb(235, 235, 235);
+					box-shadow: inset 3px 3px 7px rgb(128, 128, 128);
+					font-size: 30px;
 				}
 				#packOrder {
-					background-color: rgb(235, 102, 6);
+					background-color: rgb(238, 92, 55);
+					box-shadow: inset 0px 3px 7px rgb(110, 43, 26);
+					font-size: 30px;
+					color: #fff;
 				}
 				#deliverOrder {
-					background-color: rgb(242, 153, 88);
+					background-color: rgb(253, 208, 125);
+					box-shadow: inset 0px 3px 7px rgb(128, 105, 63);
+					font-size: 30px;
+					color: rgb(90, 52, 13);
 				}
 				#groupOrder {
 					border-width: 0px;
-					background-color: rgb(236, 236, 236);
+					background-color: rgb(255, 255, 255);
+					box-shadow: inset 0px 3px 7px rgb(128, 128, 128);
+					font-size: 30px;
 				}
 			}
 		}

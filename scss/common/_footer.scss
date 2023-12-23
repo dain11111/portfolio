@@ -1,27 +1,34 @@
 #footer {
 	width: 100%;
-	height: 100%;
-	padding: 20px 0 0 140px;
 	background-color: rgb(65, 65, 65);
-
+	padding: 25px 0 55px;
 	.inner {
 		width: 1180px;
 		height: 100%;
 		margin: 0 auto;
-		//padding: 20px 0 0 0px;
+		padding-top: 20px;
 		.footer_menu {
-			//margin: 10px 50px;
+			display: flex;
+
+			justify-content: space-between;
 
 			ul {
-				float: right;
-				margin-right: 210px;
+				//display: block;
+
+				width: 100%;
+				height: 100%;
+				margin: 0 auto;
+				color: #222;
 				li {
 					float: left;
 					padding-right: 30px;
 					display: flex;
 					a {
-						font: bold 14px/1 'LotteMartDream';
+						font: normal 17px/1 'LotteMartDream';
 						color: #fff;
+					}
+					.footer_menu_end {
+						padding: 0px;
 					}
 				}
 			}
@@ -30,30 +37,36 @@
 			width: 100%;
 			height: 100%;
 			margin: 0 auto;
-
 			&::after {
 				content: '';
 				display: block;
 				clear: both;
 			}
 			h2 {
-				margin: 30px 100px;
+				margin: 50px auto;
 				display: inline-block;
-				width: 100%;
+				width: 300px;
 				height: 100%;
+				img {
+					position: absolute;
+					width: 200px;
+					height: 100px;
+					object-fit: contain;
+				}
 			}
 			address {
+				width: 850px;
+				height: 100%;
+				margin: 50px auto;
 				text-align: right;
 				position: relative;
-				margin: -100px 250px 50px;
 				display: block;
 				float: right;
 				> li {
 					span {
-						padding: 0px 0px 5px 20px;
+						padding-right: 30px;
 						display: inline-block;
-						font: normal 13px/1 'LotteMartDream';
-						vertical-align: top;
+						font: normal 18px/1.7 'LotteMartDream';
 						color: #d6d6d6;
 						text-align: left;
 					}
