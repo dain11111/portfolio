@@ -35,8 +35,6 @@ li {
 @import './common/header';
 
 // main
-@import './main/brand';
-@import './main/comments';
 @import './main/find';
 @import './main/guide';
 @import './main/menu';
@@ -45,3 +43,5 @@ li {
 @import './main/slide';
 
 @import './common/sub_layout';
+
+@import './sub/subMenu';

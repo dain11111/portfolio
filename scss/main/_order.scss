@@ -16,10 +16,8 @@
 				margin-top: 40px;
 				display: flex;
 				justify-content: space-between;
-				/* 	margin-left: 10px; */
 				border: solid #bdbdbd;
 				border-width: 1px 1px 1px 1px;
-
 				button {
 					border: solid #bdbdbd;
 					border-width: 0px 0px 0px 0px;
@@ -35,24 +33,40 @@
 					background-color: rgb(235, 235, 235);
 					box-shadow: inset 3px 3px 7px rgb(128, 128, 128);
 					font-size: 30px;
+					&:active {
+						border: none;
+						box-shadow: inset 3px 3px 12px rgb(75, 75, 75);
+					}
 				}
 				#packOrder {
 					background-color: rgb(238, 92, 55);
 					box-shadow: inset 0px 3px 7px rgb(110, 43, 26);
 					font-size: 30px;
 					color: #fff;
+					&:active {
+						border: none;
+						box-shadow: inset 3px 3px 20px rgb(110, 43, 26);
+					}
 				}
 				#deliverOrder {
 					background-color: rgb(253, 208, 125);
 					box-shadow: inset 0px 3px 7px rgb(128, 105, 63);
 					font-size: 30px;
-					color: rgb(90, 52, 13);
+					color: rgb(114, 66, 18);
+					&:active {
+						border: none;
+						box-shadow: inset 3px 3px 12px rgb(114, 66, 18);
+					}
 				}
 				#groupOrder {
 					border-width: 0px;
 					background-color: rgb(255, 255, 255);
 					box-shadow: inset 0px 3px 7px rgb(128, 128, 128);
 					font-size: 30px;
+					&:active {
+						border: none;
+						box-shadow: inset 3px 3px 12px rgb(128, 128, 128);
+					}
 				}
 			}
 		}

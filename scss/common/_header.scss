@@ -45,12 +45,14 @@
 						height: 50px;
 						background-color: rgb(238, 92, 55);
 						box-shadow: inset 3px 3px 7px rgb(110, 43, 26);
-						border-radius: 10px;
 						a {
 							margin-top: 10px;
 							font: bold 20px/1 'LotteMartDream';
 							color: rgb(255, 255, 255);
 						}
+					}
+					&:active {
+						box-shadow: inset 3px 3px 12px rgb(110, 43, 26);
 					}
 					.sub {
 						width: 100%;
