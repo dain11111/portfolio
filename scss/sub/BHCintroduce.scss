@@ -1,0 +1,22 @@
+.BHCintroduce {
+	.history {
+		ul {
+			h2 {
+				display: inline-block;
+			}
+			li {
+				ul {
+					h3 {
+						display: inline;
+						position: relative;
+					}
+					li {
+						padding-left: 50px;
+						display: inline-block;
+					}
+				}
+			}
+		}
+		background-color: aqua;
+	}
+}
