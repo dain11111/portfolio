@@ -23,20 +23,14 @@ li {
 	list-style: none;
 }
 
-/* body {
-	width: 1180px;
-	height: 100%;
-	margin: 0 auto;
-	border: 1px solid black;
-}
- */
+
 // common
 @import './common/footer';
 @import './common/header';
 
 // main
 @import './main/find';
-@import './main/guide';
+@import './main/startups';
 @import './main/menu';
 @import './main/order';
 @import './main/recipe';
@@ -44,4 +38,7 @@ li {
 
 @import './common/sub_layout';
 
-@import './sub/subMenu';
+//sub
+@import './sub/Menu.scss';
+@import './sub/BHCintroduce';
+@import './sub/store';

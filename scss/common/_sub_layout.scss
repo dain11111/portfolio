@@ -2,7 +2,6 @@
 	width: 100%;
 	height: 150px;
 	margin: 0 auto;
-	//position: relative;
 	top: 0px;
 	left: 0px;
 	background-color: rgb(246, 222, 197);
@@ -45,7 +44,6 @@
 						height: 50px;
 						background-color: rgb(238, 92, 55);
 						box-shadow: inset 3px 3px 7px rgb(110, 43, 26);
-						//border-radius: 10px;
 						a {
 							margin-top: 10px;
 							font: bold 20px/1 'LotteMartDream';
@@ -214,10 +212,7 @@
 		background-color: rgba(0, 0, 0, 0.5);
 		.Title {
 			width: 100%;
-			//height: 100%;
 			height: 200px;
-			//background-image: url();
-			//background-attachment: fixed;
 			h1 {
 				position: relative;
 				display: block;
@@ -236,14 +231,12 @@
 		margin-top: 50px;
 		width: 100%;
 		min-height: 50vh;
-		//background-color: aqua;
 		.main_tab {
 			width: 1180px;
 			height: 60px;
 			margin: 0 auto;
 			position: relative;
 			border-bottom: 1px solid #000;
-			//background-color: red;
 			ul {
 				width: 100%;
 				height: 100%;
@@ -268,14 +261,10 @@
 		}
 		.main_box {
 			width: 1180px;
-			//height: 100%;
 			position: relative;
 			margin: 0 auto;
-			//background-color: purple;
-			//padding: 10px; //임의
 			article {
 				width: 100%;
-				//background-color: chartreuse;
 				.inner {
 					margin-top: 15px;
 					width: 1180px;
@@ -294,7 +283,6 @@
 								a {
 									color: #000;
 									font: 13px 'LotteMartDream';
-									//font-family: ;
 								}
 								&:hover {
 									a {
