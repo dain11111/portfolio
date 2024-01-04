@@ -6,6 +6,8 @@
         <title>포트폴리오</title>
         <link rel="stylesheet" href="css/style.css">
         <script src="https://kit.fontawesome.com/6de4579bfe.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     </head>
     <body>
     <!-- 헤더(로고와 메뉴바) -->
@@ -185,45 +187,44 @@
 
     <!-- 배너 -->
     <figure id="slide">
-        <div class="inner">
-            <ul>
-                <li>
-                    <img 
-                        class="bannerPic1" 
-                        src="image/main/slide/slide1.jpg" 
-                        alt="더블팝 순살"/>
-                </li>
-                <li>
-                    <img 
-                        class="bannerPic1" 
-                        src="image/main/slide/slide2.jpg" 
-                        alt="더블팝 순살"/>
-                </li>
-                <li>
-                    <img 
-                        class="bannerPic1" 
-                        src="image/main/slide/slide3.jpg" 
-                        alt="더블팝 순살"/>
-                </li>
-                <li>
-                    <img 
-                        class="bannerPic1" 
-                        src="image/main/slide/slide4.jpg" 
-                        alt="더블팝 순살"/>
-                </li>
-        </ul>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">               
+                <img src="image/main/slide/slide1.jpg" alt="" />
+                
+            </div>
+            <div class="swiper-slide">
+                <img src="image/main/slide/slide2.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+                <img src="image/main/slide/slide3.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+                <img src="image/main/slide/slide4.jpg" alt="" />
+            </div>
         </div>
-        <div class="slide_btn">
-            <div class="btn-left">
-                <i class="fa-solid fa-chevron-left"></i></div>
-            <div class="btn-right"><i class="fa-solid fa-chevron-right"></i></div>
-        </div>
-        <div class="slide_dot">
-            <div class="dot1">1</div>
-            <div class="dot2">2</div>
-            <div class="dot3">3</div>
-            <div class="dot4">4</div>
-        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <script>
+            var swiper = new Swiper(".mySwiper", {
+              spaceBetween: 30,
+              centeredSlides: true,
+              autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+              },
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+            });
+        </script>
     </figure>
 
     <!-- 주문 버튼 4개 -->
