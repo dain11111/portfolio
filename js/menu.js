@@ -1,6 +1,6 @@
-const btns = document.querySelectorAll('.buttonTitle li');
-const boxes = document.querySelectorAll('.tab article');
-const main = document.querySelector('.recipe');
+const btns = document.querySelectorAll('.main_tab ul li');
+const boxes = document.querySelectorAll('.main_box');
+const main = document.querySelector('.content Menu');
 for (let i = 0; i < btns.length; i++) {
     btns[i].addEventListener('click', (e) => {
         e.preventDefault();
@@ -14,3 +14,6 @@ function active(list, index) {
 	}
 	list[index].classList.add('on');
 }
+
+
+///수정할 것

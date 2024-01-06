@@ -381,14 +381,13 @@ li {
 }
 #menu .inner article {
   width: 1000px;
-  height: 300px;
-  margin: 100px auto;
+  height: 400px;
+  margin: 50px auto;
 }
 #menu .inner article .pic {
   width: 280px;
   height: 100%;
   overflow: hidden;
-  margin: 0 auto;
   background-color: black;
 }
 #menu .inner article .pic img {
@@ -396,7 +395,6 @@ li {
   height: 100%;
   object-fit: cover;
   transition: all;
-  filter: brightness(0.9);
 }
 #menu .inner article:hover img {
   filter: brightness(0.6);
@@ -543,12 +541,12 @@ li {
   position: relative;
   margin: 70px 30px;
 }
-#recipe .inner .wrap section a.tab {
+#recipe .inner .wrap section a {
   display: block;
   width: 100%;
   height: 100%;
 }
-#recipe .inner .wrap section a.tab article {
+#recipe .inner .wrap section a article {
   width: 100%;
   height: 100%;
   background-color: #000;
@@ -556,20 +554,20 @@ li {
   justify-content: center;
   align-items: center;
 }
-#recipe .inner .wrap section a.tab article img {
+#recipe .inner .wrap section a article img {
   width: 100%;
   height: 400px;
   object-fit: cover;
   opacity: 0.5;
 }
-#recipe .inner .wrap section a.tab article h3 {
+#recipe .inner .wrap section a article h3 {
   margin-bottom: 170px;
   position: absolute;
   font: normal 30px/1.5 "LotteMartDream";
   color: #fff;
   text-align: left;
 }
-#recipe .inner .wrap section a.tab article span {
+#recipe .inner .wrap section a article span {
   margin-bottom: -70px;
   padding: 30px;
   position: absolute;
@@ -577,16 +575,16 @@ li {
   color: #fff;
   text-align: left;
 }
-#recipe .inner .wrap section a.tab article.on {
+#recipe .inner .wrap section a article.on {
   display: flex;
 }
-#recipe .inner .wrap section a.tab article:nth-of-type(1) {
+#recipe .inner .wrap section a article:nth-of-type(1) {
   height: 400px;
 }
-#recipe .inner .wrap section a.tab article:nth-of-type(2) {
+#recipe .inner .wrap section a article:nth-of-type(2) {
   height: 400px;
 }
-#recipe .inner .wrap section a.tab article:nth-of-type(3) {
+#recipe .inner .wrap section a article:nth-of-type(3) {
   height: 400px;
 }
 #recipe .inner .wrap nav {
